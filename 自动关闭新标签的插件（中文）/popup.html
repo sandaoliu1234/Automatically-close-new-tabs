@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Serif SC', serif;
+            width: 300px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            color: #C72C41;
+            margin: 0;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #C72C41;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #A61E30;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>自动关闭新标签页</h1>
+    <button id="toggleButton">启用插件</button>
+    <script src="popup.js"></script>
+</body>
+
+</html>

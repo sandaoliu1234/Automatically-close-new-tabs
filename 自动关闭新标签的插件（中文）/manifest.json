@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "自动关闭新标签页",
+    "version": "1.0",
+    "description": "当鼠标离开新标签页时自动关闭该页面，并关闭多余的新标签页",
+    "permissions": [
+        "tabs",
+        "scripting",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
