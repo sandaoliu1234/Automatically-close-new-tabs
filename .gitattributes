@@ -1,0 +1,7 @@
+# 强制指定二进制文件，防止 Git 换行符转换损坏图片
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
