@@ -2,7 +2,7 @@
 
 一款专为优化标签页管理而设计的 Edge 浏览器插件，能够自动监控并关闭新生成的空白标签页，提升浏览效率。
 
-![Edge 扩展商店](./image.png)
+![Edge 扩展商店](https://raw.githubusercontent.com/sandaoliu1234/Automatically-close-new-tabs/main/image.png)
 
 ## ✨ 功能特点
 
